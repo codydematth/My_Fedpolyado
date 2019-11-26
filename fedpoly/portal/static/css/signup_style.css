@@ -1,0 +1,112 @@
+
+
+    body {
+        background-color: gray;
+        background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
+        font-family: "Helvetica Neue","Helvetica",Arial,"Lucida   Grande",sans-serif;
+
+
+      }
+
+      h3 {
+        font-size: 1.5em;
+        font-weight: 100;
+        letter-spacing: 0.3em;
+        text-shadow: 0px 0px 20px #fff;
+        color: black;
+        display: inline-block;
+
+
+      }
+
+      .container {
+        font-size: 20px;
+        width: 30%;
+        top: 30%;
+        left: 36%;
+        position: absolute;
+        color: #FFFFFF;
+        text-align: center;
+      }
+
+      input {
+          border-radius: 25px;
+          border-color: #0a377d;
+          padding: 10px;
+          font-family: "Helvetica Neue","Helvetica",Arial,"Lucida   Grande",sans-serif;
+      }
+      ::placeholder{
+        text-align: left;
+        color: gray;
+        font-size: 20px;
+      }
+      p{
+
+        font-size: 20px;
+        padding: 1px;
+        padding-bottom: 0px;
+
+      }
+
+      .content {
+          background-color: rgb(112,32,105);
+          border-radius: 30px;
+          padding: 25px 35px;
+          transition: transparent;
+          opacity: 0.8;
+
+      }
+
+      .placeholder{
+          color: lightgray;
+      }
+
+      .btn-custom {
+          width: 90px;
+          cursor: pointer;
+          border-radius: 15px;
+          border-color: #0a377d;
+          padding: 10px;
+          color: #6EC3EF;
+          background-color: black;
+      }
+
+
+      .btn-custom button:hover{
+          color: #fff;
+          background-color: purple;
+      }
+
+
+      @keyframes load {
+        0% {
+          width: 0%;
+        }
+        50% {
+          width: 100%;
+        }
+        100% {
+          width: 0%;
+          float: right;
+        }
+      }
+      h2{
+        color: #0a377d;
+        background-size: auto;
+        font-size: 24px;
+        text-align: center;
+        padding-bottom:0px;
+        clear: up;
+        margin: 0px;
+
+      }
+      .img-container{
+        text-align: center;
+        display: block;
+        margin-bottom:10px;
+        padding-top:100px;
+        clear: bottom;
+        border-collapse: collapse;
+
+
+      }
